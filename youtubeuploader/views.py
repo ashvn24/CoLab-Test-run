@@ -8,8 +8,6 @@ import os
 from googleapiclient.http import MediaFileUpload
 from .youtube_utils import get_authenticated_service
 
-from myyoutubeproject.settings import OWNER_SECRET_FILE_PATH
-
 class VideoUploadView(APIView):
     def post(self, request, *args, **kwargs):
         # Assuming video file is included in the request data

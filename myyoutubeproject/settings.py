@@ -12,14 +12,13 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 import os
-import json
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 CLIENT_SECRET_FILE_PATH = os.path.join(BASE_DIR, 'static', 'client_secrets.json')
 
-OWNER_SECRET_FILE_PATH = os.path.join(BASE_DIR, 'static', 'owner_credentials.json')
+# OWNER_SECRET_FILE_PATH = os.path.join(BASE_DIR, 'static', 'owner_credentials.json')
 
     
 # Quick-start development settings - unsuitable for production
